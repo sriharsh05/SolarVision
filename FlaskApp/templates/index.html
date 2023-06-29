@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Solar Vision
+        </title>
+      
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+       
+        <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" type="text/css"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Sofia'/>
+    <link 
+    href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,30
+    0;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" 
+    rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+ 
+    <div class="one">
+        <nav>
+            <h2 class="logo">Solar<span>Vision</span></h2>
+       <ul>
+                <li><a href="#section1">Home</a></li>
+                <li><a href="#section2">About Us</a></li>
+               <li><a href="#section3">Contact Us</a></li> 
+       </ul>                 
+        </nav>
+    <section id="section1">
+        <div class="content" align="center">
+            <h1> Ready, Set, Solar!</h1>
+            <div class="newlatter">
+                <form
+                 method="post"
+                action="{{ url_for('index') }}" class="form" align="center">
+                    <select id="City" name="City" class="b1">
+                        <option value="City"><b>Select city</option>
+                        <option value="hyderabad">Hyderabad</option>
+                        <option value="delhi">Delhi</option>
+                        <option value="banglore">Bangalore</option>
+                        <option value="mumbai">Mumbai</option>
+                        <option value="jaipur">Jaipur</option>
+                        <option value="kanpur">Kanpur</option>
+                        <option value="nagpur">Nagpur</option>
+                        <option value="pune">Pune</option>
+                      </select>
+                   <input type="number" name="area"id="panels" class="b1" placeholder="Area of Panels" required>
+                   <input required type="number" name="unit_current" id="unit_current" class="b1" name="current usage per day" min="1" placeholder="Cost of 1 unit of current">
+                   <input required type="number" id="bill" name="bill" class="b1"placeholder="AVG current bill" min="1">
+                   <input required type="number" id="installation" name="installation" class="b1" placeholder="cost incurred for installation" min="1"/>
+                   <a href="report.html">
+                  <input type="submit" class="but2" value="submit">
+                </a>
+             
+                </form>
+            </div>
+        </div>
+        </div>
+    </section>
+    <section id="section2">
+        <div class="service">
+            <div class="title">
+                <meta name="viewport" content="width=device-width, initial-scale=1">
+              <h2>Make The Sun Work For You</h2>  
+        </div>
+        <div class="box">
+            <div class="card">
+                <i class="fa-solid fa-house fa-flip"></i>
+
+                <h3><b>Renewable</b></h3>
+            <div class="pra">
+                <p>Our commitment to renewable energy empowers you to reduce your carbon footprint and embrace a cleaner, more sustainable future. </p>
+                <p style="text-align: center;">     
+                </p>
+        </div>
+        </div>
+        <div class="card">
+            <i class="fa-solid fa-indian-rupee-sign fa-bounce"></i>
+            <h3><b>Cost-Effective</b></h3>
+        <div class="pra">
+            <p>Save money on energy bills while making a positive impact on the environment.</p>
+            <p style="text-align: center;">       
+            </p>
+        </div>
+        </div>
+        <div class="card">
+            <i class="fa-sharp fa-solid fa-seedling fa-flip"></i>
+            <h3><b>Greenable</b></h3>
+        <div class="pra">
+            <p>Take a proactive step towards a greener world by choosing green energy solutions that promote environmental stewardship and reduce reliance on fossil fuels.
+            </p>
+            <p style="text-align: center;">
+            </p>
+        </div>
+        </div>
+        </div>
+        </div>
+    </section>
+        <section id="section3">
+        <div class="contact-us">
+        </body>
+       
+ 
+        <footer class="footer">
+            <div class="footer-section">
+              <h2>SolarVision - Predicting Solar Energy Generation and 
+                Revenue Estimation using Machine Learning and Time Series Analysis</h2>
+            </div>
+            <div class="footer-section">
+              <h3>Developed by:</h3>
+              <ul>
+                <li>Sriharsh : <a href="#">sriharsh@example.com</a></li>
+                <li>Vivek : <a href="#">vivek@example.com</a></li>
+                <li>Maneesha : <a href="#">maneesha@example.com</a></li>
+              </ul>
+            </div>
+          </footer>
+    
+</html>
+        
+ 
+
