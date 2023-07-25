@@ -28,3 +28,11 @@ energy.
 
 
 <img width="944" alt="img2" src="https://github.com/sriharsh05/SolarVision/assets/114745442/bf72ccb0-8a18-477e-a7d9-41d4f7a88f1c">
+
+
+
+### Datasets :
+
+Solar energy dataset : https://www.kaggle.com/datasets/dronio/SolarEnergy
+
+Citywise weather dataset : https://www.kaggle.com/datasets/hiteshsoneji/historical-weather-data-for-indian-cities
